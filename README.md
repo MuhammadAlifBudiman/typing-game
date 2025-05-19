@@ -1,6 +1,63 @@
-# TypingGame
+# Typing Game
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+This project is part of the Udemy course [30 Days of Angular: Build 30 Web Projects with Angular](https://www.udemy.com/course/30-days-of-angular/).
+
+## Overview
+
+The Typing Game is an interactive web application designed to improve typing speed and accuracy. It features a typing test, leaderboard, themes, and more.
+
+## Features
+
+- **Typing Test**: Practice typing with random words and track your speed and accuracy.
+- **Leaderboard**: Compete with others and see the top scores.
+- **Themes**: Customize the look and feel of the application.
+- **Responsive Design**: Works seamlessly on desktop and mobile devices.
+
+## Project Structure
+
+The project is built using Angular and follows a modular structure:
+
+- `src/app/components`: Reusable UI components like header and footer.
+- `src/app/pages`: Pages like home, leaderboard, and typing test.
+- `src/app/services`: Services for managing game logic, themes, and leaderboard.
+- `src/app/models`: Data models for leaderboard entries, stats, and words.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MuhammadAlifBudiman/typing-game.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd typing-game
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The application will be available at `http://localhost:4200/`.
+
+## Testing
+
+Run the tests using:
+
+```bash
+npm test
+```
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Development server
 
